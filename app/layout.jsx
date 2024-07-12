@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import React from "react";
 import "@/assets/styles/globals.css";
 import Navbar from "@/components/Navbar";
@@ -6,7 +8,7 @@ import AuthProvider from "@/components/AuthProvider";
 import { GlobalProvider } from "@/context/GlobalContext";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import 'photoswipe/dist/photoswipe.css'
+import "photoswipe/dist/photoswipe.css";
 
 export const metadata = {
   title: "PropertyPulse | Find the Perfect Rental",
